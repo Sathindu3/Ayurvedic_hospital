@@ -1,0 +1,37 @@
+.section-1{
+    min-height: 1000px;
+    max-height: 1000px;
+    background-image: url("../../Resources/images/image3_opp.png");
+    background-size: cover;
+    opacity: 1;
+}
+.section-1 .content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.section-1 .content-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.section-1 .content-2 .sub-1 img{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.section-1 .content-2 .sub-2 p{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
