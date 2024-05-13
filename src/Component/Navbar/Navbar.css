@@ -14,9 +14,12 @@
 .navigation-bar .navigation-logo{
     color: white;
 }
-.navigation-bar .navigation-logo{
+.navigation-bar .nav-link{
     color: white;
 }
-.navigation-bar a{
+.navigation-bar .nav-link:hover{
+    color: white;
+}
+.navigation-bar .nav-link:active{
     color: white;
 }

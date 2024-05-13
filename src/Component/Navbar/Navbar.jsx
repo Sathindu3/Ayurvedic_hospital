@@ -49,7 +49,7 @@ function NavScrollExample() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid className='navigation-bar'>
-                <Navbar.Brand className='navigation-logo' href="#">Ayurvedhaa Hospital</Navbar.Brand>
+                <Navbar.Brand className='navigation-logo' href="./">Ayurvedhaa Hospital</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -57,11 +57,11 @@ function NavScrollExample() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >             
-                        <Nav.Link href="#action1">Overview</Nav.Link>
-                        <Nav.Link href="#action2">Channeling</Nav.Link>
-                        <Nav.Link href="#action2">Treatment</Nav.Link>
-                        <Nav.Link href="#action2">Products</Nav.Link>
-                        <Nav.Link href="#action2">Packages</Nav.Link>
+                        <Nav.Link href="./">Overview</Nav.Link>
+                        <Nav.Link href="./Channeling">Channeling</Nav.Link>
+                        <Nav.Link href="./Treatment">Treatment</Nav.Link>
+                        <Nav.Link href="./Products">Products</Nav.Link>
+                        <Nav.Link href="./packages">Packages</Nav.Link>
                         <NavDropdown title="Link" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action4"> Another action</NavDropdown.Item>
